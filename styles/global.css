@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --white: #fff;
+  --pink: #fda4d4;
+  --silver: rgba(255, 255, 255, 0.16);
+  --black: #020203;
+
+  --background: radial-gradient(392.51% 129.14% at 0.00% 0%, #0BB1FF 7.98%, #79DAFD 91.70%);
+  --shadow-car: linear-gradient(to top, rgba(20, 20, 20, 0.8), transparent 40%);
+  --shadow-name: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+body {
+  background: var(--background);
+}
+
+body, a {
+  color: var(--white);
+  font: 500 1rem 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
