@@ -9,6 +9,12 @@ nav {
 
 nav a {
   font-size: 20px;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: var(--pink);
+  transition: all 0.4s;
 }
 
 nav a img {
