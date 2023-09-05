@@ -15,9 +15,51 @@
 }
 
 .cloud {
-  display: none;
   position: absolute;
+  z-index: -2;
+  left: -258px;
+
+  width: auto;
+  height: 11vh;
+
+  animation: moveCloud 10s linear infinite;
 }
+
+.cloud:nth-child(1) {
+  top: 70px;
+  animation-delay: 4s;
+}
+
+
+.cloud:nth-child(2) {
+  top: 190px;
+  animation-delay: 8s;
+}
+
+.cloud:nth-child(3) {
+  top: 420px;
+}
+
+.cloud:nth-child(4) {
+  top: 330px;
+  animation-delay: 6s;
+}
+
+.cloud:nth-child(5) {
+  top: 520px;
+  animation-delay: 2.5s;
+}
+
+@keyframes moveCloud {
+  from {
+    transform: translateX(0);
+  } 
+
+  to {
+    transform: translateX(calc(100vw + 258px));
+  }
+}
+
 
 .car {
   width: 100%;
