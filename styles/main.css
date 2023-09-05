@@ -75,3 +75,37 @@ main {
   opacity: 1;
   transform: translateY(0);
 }
+
+.actor-name {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+
+  width: 250px;
+  height: auto;
+  padding: 8px 0;
+  border-radius: 45px;
+
+  background: transparent;
+  border: 1px solid var(--silver);
+  box-shadow: var(--shadow-name);
+
+  transition: all 0.4s;
+}
+
+.actor-name:hover {
+  background: var(--pink);
+  transform: translateY(-10px);
+
+  cursor: pointer;
+}
+
+.actor-name.ryan {
+  margin-top: 9vh;
+  margin-right: 14vw;
+}
+
+.actor-name.margot {
+  margin-top: 22vh;
+  margin-right: 11vw;
+}
