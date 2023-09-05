@@ -13,3 +13,8 @@ footer {
 footer a {
   font-size: 18px;
 }
+
+footer a:hover {
+  color: var(--pink);
+  transition: all 0.4s;
+}
