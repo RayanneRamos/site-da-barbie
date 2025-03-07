@@ -16,7 +16,7 @@
 
 [Site da Barbie](https://site-da-barbie.vercel.app/) é um projeto desenvolvido em cima do lançamento do filme da Barbie no ano de 2023. Fazendo o redesign do site do filme modificando algumas coisas, adicionando animações, os nomes dos atores e alguns links de redes sociais.
 
-## 🧪 Technologies
+## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
